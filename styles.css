@@ -1,0 +1,109 @@
+
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+li a:hover {
+        background-color: #111;
+
+}
+
+.pageintro {
+        color: #272e23
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.reviewer {
+        float: left;
+        width: 100px;
+        height: 50px;
+        border: 2px solid #dddddd;
+        background-color: #B2D6FF;
+}
+
+.review {
+        height: 50px;
+        padding: 20px 10px;
+        float: default;
+        border: 2px solid #dddddd;
+        margin: 0 auto;
+        background-color:  #a6c6cb;    /* greyish-blue */
+}
+
+.footer {
+  height: 200px;
+  background-color: #8dd6de;    /* Light blue */
+}
+
+.page {
+        width: 1200px;
+        margin: 0 auto;
+}
+
+.intro {
+        float: left;
+        width: 450px;
+        height: 150px;
+        background-color: #999999;
+}
+
+
+.pageheader {
+	width: 275px;
+	height: 75px;
+	font-size: 50px;
+	font-color: #ffffff;
+}
+
+.prettypageheader {
+	height: 75px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px 24px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 24px 24px;
+}
+
+.column img {
+  margin-top: 16px;
+  vertical-align: middle;
+}
+
+.spacer {
+	height: 75px;
+}
+
+.content {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.tv_content {
+	max-width: 1350px;
+	margin: auto;
+}
+
+.footer {
+  /* ... */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
